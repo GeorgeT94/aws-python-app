@@ -80,5 +80,5 @@ def delete_entry(conn):
     elif confirm == "N":
         print (Constants.CANCEL_DELETE)
     else:
-        print ("Please enter either 'Y' or 'N': ")
+        print (Constants.RESELECT)
         
