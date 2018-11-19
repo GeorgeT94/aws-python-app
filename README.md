@@ -23,7 +23,7 @@ ssh -i "the-location-of-your-ec2-pem-file.pem" ubuntu@your-ubuntu-instance
 ```
 2. Clone this repository and ```cd``` into it.
 ```
-git clone https://github.com/georgeT94/aws-python-app.git
+git clone https://github.com/GeorgeT94/aws-python-app.git
 cd aws-python-app
 ```
 3. Use nano to edit the ```Constants.py``` file.
@@ -35,3 +35,10 @@ nano Constants.py
 ```
 python3 main.py
 ```
+
+If you run into any problems it is most likely due to the secruity setting on your RDS/EC2 instance.
+
+####### Contributors
+
+Sam Kirk  - https://github.com/samjkirk 
+George Timbrell - https://github.com/GeorgeT94
